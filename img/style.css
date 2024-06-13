@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(/img/perfil1.jpg);
+    background-size: cover;
+    
+
+}
+header {
+    max-width: 1080px;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:rgba(19, 19, 19, 0.452);
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 22px;
+}
+
+.menu nav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    width: 50%;
+}
+.menu :hover {
+    color: rgb(87, 87, 223);
+}
+
+
+.contato nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.contato :hover {
+    color: rgb(87, 87, 223);
+}
+
+
+.text-curric {
+    align-items: center;
+    display: flex;
+}
+/*Parte do meio do site -------*/ 
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgba(51, 51, 51, 0.637);
+}
+
+.imagem-perfil {
+    width: 38%;
+    border-radius: 180px;
+    background-color: rgba(0, 0, 0, 0.171);
+
+}
+
+.imagem-perfil img {
+    border-radius: 50%;
+    
+
+}
+
+.curriculo-texto {
+    width: 50%;
+    padding: 130px;
+    color: white;
+    font-size: 28px;
+}
+
+
+.texto h4 {
+    color: rgb(241, 241, 104);
+}
+
+.texto span {
+    color: rgb(115, 149, 243);
+}
+
+.texto p {
+    font-size: 17px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.curriculo a {
+    color:black ;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.curriculo {
+    margin-top: 5px;
+}
+
+.curriculo :hover {
+    background-color: rgb(241, 241, 104);
+}
+
+/*-----Sobre ------*/
+.home-2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.795);
+    
+}
+
+.perfil-2 {
+   width: 30%;
+   background-color: rgba(24, 23, 23, 0.856);
+   border-radius: 50px; 
+
+}
+
+.perfil-2 img {
+    border-radius: 50px;
+}
+
+.sobre-foto h1 {
+    color: rgb(241, 241, 104);
+}
+
+.sobre-foto {
+    width: 45%;
+    font-size: 20px;
+}
+
+.sobre-foto h4 {
+    font-size: 23px;
+    margin-right: 60px;
+    background-color:rgba(43, 42, 42, 0.199);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    width: 250px;
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.sobre-foto h3 {
+    color: white;
+    background-color: rgb(145, 145, 145);
+    width: 390px;
+    height:33px;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 4px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*Página - serviços --------*/
+
+
+.serviços {
+    background-color: rgba(240, 248, 255, 0.623);
+}
+
+.texto-serviço {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.texto-serviço h1 {
+    color:rgb(241, 241, 104) ;
+    font-size: 26px;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pai-code {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: 60px;
+
+}
+
+.code {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 20px;
+    height: 330px;
+    padding:30px;
+}
+
+.code i {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    color:rgb(87, 87, 223) ;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+}
+
+.code h1 span {
+    color:rgb(241, 241, 104)  ;
+}
+
+.code h1 {
+    color:rgb(87, 87, 223) ;
+}
+
+.code h5 {
+    padding-top: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
